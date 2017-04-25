@@ -17,6 +17,14 @@ In some cases it does not matter if the script is executed on a system with soft
 
 - Open the file with a text editor, search for `GIT_USER_EMAIL`, `GIT_USER_NAME`, `POSTGRES_APP_DB_USER` and `POSTGRES_APP_DB_PASS`, enter the appropriate values and save the changes.
 
+```Shell
+POSTGRES_APP_DB_USER=postgres
+POSTGRES_APP_DB_PASS=$POSTGRES_APP_DB_USER
+GIT_USER_EMAIL="" # Enter your email address here, e.g. a@b.com
+GIT_USER_NAME="" # Enter your name here, e.g. Rudolf Bargholz
+GIT_CREDENTIAL_HELPER_CACHE_TIMEOUT="86400"
+```
+
 - Open a terminal window
 ```Shell
 cd Desktop
