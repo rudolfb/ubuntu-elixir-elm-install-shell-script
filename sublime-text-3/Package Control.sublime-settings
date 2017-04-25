@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Elixir",
+		"ElixirSublime",
+		"Elm Language Support",
+		"Git",
+		"Gitignore",
+		"Highlight Build Errors",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"Markdown Extended",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Monokai Extended",
+		"Package Control",
+		"Path Tools",
+		"StringEncode",
+		"SublimeLinter",
+		"SublimeLinter-contrib-elixirc",
+		"SublimeLinter-contrib-elm-make",
+		"SublimeREPL",
+		"Terminal"
+	]
+}
