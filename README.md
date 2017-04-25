@@ -66,19 +66,19 @@ asdf local erlang 19.3
 
 #### List the locally installed packages
 
-``````Shell
+```Shell
 sudo dpkg -l
 ```
 
 #### List the locally installed packages and find some packages
 
-``````Shell
+```Shell
 sudo dpkg -l | grep erlang
 ```
 
 #### Get top level global npm packages
 
-``````Shell
+```Shell
 npm -g list --depth=0
 ```
 
@@ -90,7 +90,7 @@ subl /var/log/apt/history.log
 
 ### Open psql with the user postgres
 
-``````Shell
+```Shell
 psql -U postgres -W -h localhost
 ```
 
