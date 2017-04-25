@@ -326,7 +326,7 @@ wget --quiet https://packagecontrol.io/Package%20Control.sublime-package
 mkdir -p ~/.config/sublime-text-3/Packages/User
 cd ~/.config/sublime-text-3/Packages/User/
 wget --quiet https://github.com/rudolfb/ubuntu-elixir-elm-install-shell-script/raw/master/sublime-text-3/Package%20Control.sublime-settings
-wget --quiet https://raw.githubusercontent.com/rudolfb/ubuntu-elixir-elm-install-shell-script/master/sublime-text-3/Terminal.sublime-settings
+wget --quiet https://github.com/rudolfb/ubuntu-elixir-elm-install-shell-script/raw/master/sublime-text-3/Terminal.sublime-settings
 
 # Revert back to previous directory
 cd $cwd
