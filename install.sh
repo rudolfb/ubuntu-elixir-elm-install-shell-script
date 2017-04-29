@@ -280,7 +280,7 @@ set -x
 sudo apt-get -y install atom
 
 apm install \
-autocomplete-elixir \
+atom-elixir \
 elm-format \
 file-icons \
 git-plus \
@@ -290,6 +290,7 @@ language-elm \
 language-lisp \
 linter \
 linter-elixirc \
+linter-elm-make \
 linter-xmllint \
 merge-conflicts \
 minimap \
@@ -301,6 +302,9 @@ tabs-to-spaces \
 trailing-spaces \
 xml-formatter \
 monokai
+
+# autocomplete-elixir deprecated and replaced with atom-elixir
+# https://github.com/wende/autocomplete-elixir
 
 
 set +x
